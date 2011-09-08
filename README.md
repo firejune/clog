@@ -19,16 +19,16 @@ NPM
 
 #### Code
 
-    var debug = require('clog');       // load module
+    var clog = require('clog');       // load module
     
-    debug('send', 'hellow', 'world');  // custom head
-    debug.log('Hi!');                  // log
-    debug.error('WTF?');               // error
-    debug.info(['one', 'tow']);        // info
-    debug.debug('headers', {           // debug
+    clog('send', 'hellow', 'world');  // custom head
+    clog.log('Hi!');                  // log
+    clog.error('WTF?');               // error
+    clog.info(['one', 'tow']);        // info
+    clog.debug('headers', {           // debug
       'Content-Type': 'text/html'
     });
-    debug.warn('boo is deprecated.');  // warn
+    clog.warn('boo is deprecated.');  // warn
 
 ### Output
 
