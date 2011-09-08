@@ -32,7 +32,7 @@ NPM
 
 ### Output
 
-![output](http://firejune.github.com/clog/images/clog.png)
+![output](https://github.com/firejune/clog/raw/master/images/clog.png)
 
 Have fun!
 
