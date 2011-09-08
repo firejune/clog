@@ -15,20 +15,20 @@ GIT
 
 NPM
 
-    $ npm install clog(not yet)
+    $ npm install clog
 
 #### Code
 
-    var log = require('./lib/clog');
+    var debug = require('clog');       // load module
     
-    log('send', 'hellow', 'world');
-    log.log('Hi!');
-    log.error('WTF?');
-    log.info(['one', 'tow']);
-    log.debug('headers', {
+    debug('send', 'hellow', 'world');  // custom head
+    debug.log('Hi!');                  // log
+    debug.error('WTF?');               // error
+    debug.info(['one', 'tow']);        // info
+    debug.debug('headers', {           // debug
       'Content-Type': 'text/html'
     });
-    log.warn('boo is deprecated.');
+    debug.warn('boo is deprecated.');  // warn
 
 ### Output
 
