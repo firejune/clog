@@ -7,7 +7,7 @@ Colorful console output for your applications in NodeJS.
 * Tyny library
 * Easy to use
 
-# Installing
+### Installing
 
 GIT
 
@@ -16,8 +16,6 @@ GIT
 NPM
 
     $ npm install clog(not yet)
-
-# Looks
 
 #### Code
 
@@ -32,12 +30,12 @@ NPM
     });
     log.warn('boo is deprecated.');
 
-#### Output
+### Output
 
 ![output](http://firejune.github.com/clog/images/clog.png)
 
 Have fun!
 
-# License
+### License
 
 MIT <3
