@@ -19,7 +19,10 @@
     "error"
   ],
 
-  "licenses": ["MIT"],
+  "licenses": [{
+    "type": "MIT",
+    "url": "http://www.opensource.org/licenses/mit-license.php"
+  }],
   
   "directories": {
     "lib": "lib"
