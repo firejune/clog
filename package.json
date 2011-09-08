@@ -1,0 +1,33 @@
+{
+  "name": "clog",
+  "author": "Firejune (http://firejune.com/)",
+  "version": "0.0.1",
+  "description": "Colorful console output in NodeJS.",
+  "homepage": "http://firejune.com/1701",
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firejune/clog.git"
+  },
+
+  "keywords": [
+    "color",
+    "console",
+    "log",
+    "info",
+    "warn",
+    "error"
+  ],
+
+  "licenses": ["MIT"],
+  
+  "directories": {
+    "lib": "lib"
+  },
+
+  "main": "lib/clog",
+
+  "engines": {
+    "node": "*"
+  }
+}
