@@ -4,7 +4,7 @@ Colorful console output for your applications in NodeJS.
 
 * Colors for log, info, warn and error
 * Support custom labels
-* Tyny library
+* Tiny library
 * Easy to use
 
 ### Installing
