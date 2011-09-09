@@ -3,13 +3,7 @@
   "author": "Firejune (http://firejune.com/)",
   "version": "0.0.2",
   "description": "Colorful console output in NodeJS.",
-  "homepage": "http://firejune.com/1701",
-
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/firejune/clog.git"
-  },
-
+  "homepage": "http://github.com/firejune/clog",
   "keywords": [
     "color",
     "console",
@@ -18,19 +12,22 @@
     "warn",
     "error"
   ],
-
+  "main": "lib/clog",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/firejune/clog.git"
+  },
   "licenses": [{
     "type": "MIT",
     "url": "http://www.opensource.org/licenses/mit-license.php"
   }],
-  
-  "directories": {
-    "lib": "lib"
+  "bugs" : {
+    "web" : "http://github.com/firejune/clog/issues"
   },
-
-  "main": "lib/clog",
-
   "engines": {
-    "node": "*"
+    "node": ">= 0.4.0"
   }
 }
