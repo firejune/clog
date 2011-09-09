@@ -1,7 +1,7 @@
 {
   "name": "clog",
   "author": "Firejune (http://firejune.com/)",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Colorful console output in NodeJS.",
   "homepage": "http://firejune.com/1701",
 
