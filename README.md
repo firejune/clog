@@ -17,18 +17,19 @@ NPM
 
     $ npm install clog
 
-#### Code
+### Code
 
-    var clog = require('clog');       // load module
+    var clog = require('clog');
     
-    clog('send', 'hellow', 'world');  // custom head
-    clog.log('Hi!');                  // log
-    clog.error('WTF?');               // error
-    clog.info(['one', 'tow']);        // info
-    clog.debug('headers', {           // debug
-      'Content-Type': 'text/html'
+    clog('response', 'hello', 'world');     // custom head
+
+    clog.log('Hi!');                        // console.log
+    clog.info(['foo', 'bar']);              // console.info
+    clog.warn('baz is deprecated.');        // console.warn
+    clog.error('HTTP/1.1 400 Bad Request'); // console.error
+    clog.debug('headers', {                 // console.debug
+      'Content-Type': 'text/javascript'
     });
-    clog.warn('boo is deprecated.');  // warn
 
 ### Output
 
