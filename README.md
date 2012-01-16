@@ -4,6 +4,7 @@ Colorful console output for your applications in NodeJS.
 
 * Colors for log, info, warn and error
 * Support custom labels
+* Support display level and custom level
 * Tiny library
 * Easy to use
 
@@ -17,7 +18,7 @@ NPM
 
     $ npm install clog
 
-### Code
+### Usage
 
     var clog = require('clog');
     
@@ -30,6 +31,24 @@ NPM
     clog.debug('headers', {                          // console.debug
         'Content-Type': 'text/javascript'
     });
+
+### Configure
+
+    // display level configration:
+    clog.configure({'log level': 2});
+    //=> {'log': true, 'info': true, 'warn': false, 'error': false, 'debug': false}
+    
+    // custom display configration:
+    clog.configure({
+        'log level': {
+            'log': true,
+            'info': true,
+            'warn': false,
+            'error': true,
+            'debug': false
+        }
+    });
+    //=> {'log': true, 'info': true, 'warn': false, 'error': true, 'debug': false}
 
 ### Output
 
