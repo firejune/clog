@@ -4,7 +4,7 @@ Colorful console output for your applications in NodeJS.
 
 * Colors for log, info, warn and error
 * Support custom labels
-* Support display level and custom level
+* Support display level and custom display level
 * Tiny library
 * Easy to use
 
