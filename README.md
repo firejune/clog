@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/firejune/clog.png)](http://travis-ci.org/firejune/clog)
 # clog
 
 Colorful console output for your applications in NodeJS.
