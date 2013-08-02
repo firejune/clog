@@ -19,7 +19,7 @@ NPM
     $ npm install clog
 
 ### Usage
-
+```javascript
     var clog = require('clog');
     
     clog('server', 'start listening on port 3000');  // custom head
@@ -31,9 +31,9 @@ NPM
     clog.debug('headers', {                          // console.debug
         'Content-Type': 'text/javascript'
     });
-
+```
 ### Configure
-
+```javascript
     // display level configration:
     clog.configure({'log level': 2});
     //=> {'log': true, 'info': true, 'warn': false, 'error': false, 'debug': false}
@@ -49,7 +49,7 @@ NPM
         }
     });
     //=> {'log': true, 'info': true, 'warn': false, 'error': true, 'debug': false}
-
+```
 ### Output
 
 ![output](https://github.com/firejune/clog/raw/master/images/clog.png)
